@@ -1,19 +1,13 @@
-# Intro
+## Solutions
 
-Write average height and weight of pokemon to the console.
+3 Solutions
 
-# Commands
+- [shebang js](./javascript/)
+- [shebang ts](./typescript/)
+- [create-node-cli](./create-node-cli/)
 
-I didn't package our `pokemon` CLI as a single executable
+## Notes
 
-- `./src/index.js pokemon limit=0 offset=0` or `./src/index.js pokemon 0 0`
-- `./src/index.js pokemon help` to get help
-
-Run
-
-- `npm run dev`
-
-# Language
-
-- Node
-- JavaScript
+- Very interesting challenge.
+- Never done something like before.
+- I wish i had some more time to work on it.

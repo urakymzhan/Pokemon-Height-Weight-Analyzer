@@ -1,0 +1,45 @@
+{
+	"name": "pokemon",
+	"description": "Determine the average weight and height of a given subset of Pokemon.",
+	"version": "0.0.1",
+	"license": "UNLICENSED",
+	"bin": {
+		"pokemon": "index.js",
+		"pokemon-analyzer": "index.js"
+	},
+	"author": {
+		"name": "Alan (Ulan) Rakymzhan",
+		"email": "ulan.rakymzhanov@gmail.com",
+		"url": "https://www.ulan13.me"
+	},
+	"keywords": [
+		"pokemon",
+		"Alan (Ulan) Rakymzhan"
+	],
+	"files": [
+		"index.js",
+		"utils"
+	],
+	"scripts": {
+		"dev": "./index.js pokemon",
+		"test": "jest",
+		"format": "prettier --write \"./**/*.{js,json}\""
+	},
+	"dependencies": {
+		"axios": "^0.27.2",
+		"boxen": "4.0",
+		"chalk": "2.4",
+		"cli-alerts": "^1.2.2",
+		"cli-handle-error": "^4.4.0",
+		"cli-handle-unhandled": "^1.1.1",
+		"cli-meow-help": "^3.1.0",
+		"cli-welcome": "^2.2.2",
+		"inquirer": "^8.2.4",
+		"meow": "^9.0.0"
+	},
+	"devDependencies": {
+		"jest": "^28.0.3",
+		"prettier": "^2.6.2",
+		"typescript": "^4.6.4"
+	}
+}
